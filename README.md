@@ -36,12 +36,13 @@ src/
 ├── styles/       # Arquitetura SCSS Profissional (Abstracts, Layout, Theme)
 ├── lib/          # Configurações externas (Prisma, Auth)
 └── app/          # Rotas e Layouts (Next.js App Router)
+```
 
 ## 📐 Padrões de Design
 
-*   **Paleta de Cores:** Foco em tons escuros (#0B0F19), azul funcional e acentos premium.
-*   **Tipografia:** Inter (Hierarquia clara e espaçamento premium).
-*   **Estilo:** Glassmorphism leve, bordas suaves, interface minimalista.
+- **Paleta de Cores:** Foco em tons escuros (#0B0F19), azul funcional e acentos premium.
+- **Tipografia:** Inter (Hierarquia clara e espaçamento premium).
+- **Estilo:** Glassmorphism leve, bordas suaves, interface minimalista.
 
 ## 🚀 Como Começar
 
@@ -53,5 +54,4 @@ src/
 
 ---
 
-*Desenvolvido com foco em alta performance e escalabilidade.*
-```
+_Desenvolvido com foco em alta performance e escalabilidade._
