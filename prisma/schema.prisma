@@ -76,13 +76,14 @@ model VerificationToken {
 
 // --- BUSINESS ---
 model Client {
-  id           String   @id @default(uuid())
-  name         String
-  phone        String?
-  email        String?
-  tenantId     String
-  tenant       Tenant   @relation(fields: [tenantId], references: [id])
-  appointments Appointment[]
+  id        String   @id @default(uuid())
+  name      String
+  phone     String?
+  email     String?
+  tenantId  String
+  createdAt DateTime @default(now())
+  
+  @@index([tenantId])
 }
 
 model Service {
